@@ -1,5 +1,5 @@
-import os
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -88,7 +88,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME':
+        'NAME': 
         'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
